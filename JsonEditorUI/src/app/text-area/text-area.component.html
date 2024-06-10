@@ -1,0 +1,15 @@
+<div class="editor-container">
+
+  <div class="editor">
+    <div class="textarea-wrapper">
+      <textarea rows="10" cols="40" id="codeEditor" [(ngModel)]="jsonText"></textarea>
+    </div>
+  </div>
+</div>
+<div class="buttons-container">
+
+  <app-custombutton label="Validate" (onClick)="ValidateClick()"></app-custombutton>
+  <app-custombutton label="Query" (onClick)="QueryClick()"></app-custombutton>
+  <app-custombutton label="Save" (onClick)="SaveClick()"></app-custombutton>
+
+</div>

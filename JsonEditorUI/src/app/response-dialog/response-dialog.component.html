@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Response Details</h1>
+<div mat-dialog-content>
+  <pre>{{ data | json }}</pre>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="copyToClipboard()">Copy</button>
+  <button mat-button mat-dialog-close>Close</button>
+</div>

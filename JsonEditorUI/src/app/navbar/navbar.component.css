@@ -1,0 +1,41 @@
+.mat-toolbar {
+  height: 42px;
+  background-color: #0039a6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Comic Sans";
+  width: 100vw;
+}
+
+.img-fluid {
+  max-width: 18%;
+}
+
+.topNav {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .mat-toolbar {
+    flex-direction: row;
+    align-items: center;
+    height: auto; 
+    width: 100%;
+  }
+
+  .img-fluid {
+    max-width: 50%; 
+    margin-bottom: 10px;
+  }
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.form-control{
+margin-right: 10px;
+}

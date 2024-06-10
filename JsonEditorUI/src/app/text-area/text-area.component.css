@@ -1,0 +1,77 @@
+textarea {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color: #ccc;
+
+  font-size: 13px;
+  line-height: 16px;
+
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  padding-left: 40px;
+  box-sizing: border-box;
+  resize: none;
+  white-space: pre;
+  overflow: auto;
+  line-height: 1.4em;
+}
+
+.textarea-wrapper {
+  display: inline-block;
+  background-image: linear-gradient(#F1F1F1 50%, #F9F9F9 50%);
+  background-size: 100% 32px;
+  background-position: left 10px;
+  width: 98%;
+  height: 100%;
+}
+
+
+.editor-container {
+  margin: 10px;
+  width: calc(100% - 20px); 
+  height: calc(90% - 1px); 
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .editor-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .buttons-container {
+    flex-direction: row;
+    align-items: flex-end;
+    right: auto; 
+    bottom: auto;
+    top:60%
+  }
+}
+
+.editor {
+  display: flex;
+  position: relative;
+}
+
+.error-snackbar .mat-simple-snackbar-action {
+  color: red; 
+  font-size: 24px;
+}
+

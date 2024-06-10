@@ -1,0 +1,13 @@
+<div class="topNav">
+  <mat-toolbar class="mat-elevation-z6">
+    <img class="img-fluid" src="../../../assets/json-editor-logo.png">
+
+    <form class="form-inline my-2 my-lg-0">
+      <input [(ngModel)]="searchText" (input)="onInput()" class="form-control form-control-sm ml-2" type="search"
+        placeholder="Search" aria-label="Search" name="search" #filter>
+      <button class="btn btn-warning btn-sm my-2 my-sm-0" type="button" [disabled]="!isButtonEnabled"
+        (click)="onSearch(filter.value)">Search</button>
+    </form>
+
+  </mat-toolbar>
+</div>

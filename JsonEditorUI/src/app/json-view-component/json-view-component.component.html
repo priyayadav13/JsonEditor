@@ -1,0 +1,16 @@
+<div class="editor-container">
+
+  <div class="editor">
+    <div class="numbers" id="rowNumbers" [innerHTML]="lineNumbers"></div>
+    <textarea (keyup)="onKeyup($event)" (keydown)="onKeydown($event)"  contenteditable="true" #textareaRef id="codeEditor" cols="30"
+      rows="10">{{message}}</textarea>
+  </div>
+
+  <div class="buttons-container">
+
+    <app-custombutton label="Validate" (onClick)="ValidateClick()"></app-custombutton>
+    <app-custombutton label="Query" (onClick)="QueryClick()"></app-custombutton>
+    <app-custombutton label="Save" (onClick)="SaveClick()"></app-custombutton>
+
+  </div>
+</div>

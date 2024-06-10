@@ -1,0 +1,71 @@
+
+.editor-container {
+  margin: 10px;
+  width: calc(100% - 20px); 
+  height: calc(87% - 20px); 
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .editor-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .buttons-container {
+    flex-direction: row;
+    align-items: flex-end;
+    right: auto; 
+    bottom: auto;
+    top:60%
+  }
+}
+
+.editor {
+  display: flex;
+  position: relative;
+}
+
+.numbers {
+  counter-reset: line;
+  text-align: right;
+  padding-right: 10px;
+  user-select: none;
+  margin-top: 2px;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  line-height: 1.4em;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  flex: 1;
+  padding-left: 40px;
+  box-sizing: border-box;
+  resize: none;
+  white-space: pre;
+  overflow: auto;
+  line-height: 1.4em;
+}
+
+.cursor-position {
+  margin-top: 10px;
+}

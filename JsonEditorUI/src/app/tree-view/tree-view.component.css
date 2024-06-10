@@ -1,0 +1,65 @@
+.treeTop {
+  margin: 10px;
+  max-width: 387px;
+  overflow-x: auto;
+  height: 91vh;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .treeTop {
+    max-height: 280vh;
+    max-width: 100%;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.toggle-circle {
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid blue;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.toggle-circle mat-icon {
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 1.5px;
+}
+
+.toggle-circle.expanded {
+  background-color: blue;
+  color: white;
+}
+
+.toggle-circle.collapsed {
+  background-color: white;
+  color: blue;
+}
+
+.node-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.node-content:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 6px;
+}
+.node-content {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}

@@ -1,0 +1,1502 @@
+[
+  {
+    "name": "ac_ups",
+    "children": [
+      {
+        "name": 0,
+        "children": [
+          { "name": 2, "children": [] },
+          { "name": 0, "children": [] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "AC_UPS",
+    "children": [
+      { "name": 89, "children": [{ "name": 3, "children": [] }] },
+      { "name": 105, "children": [{ "name": 3, "children": [] }] },
+      { "name": 104, "children": [{ "name": 3, "children": [] }] },
+      { "name": 106, "children": [{ "name": 3, "children": [] }] },
+      { "name": 107, "children": [{ "name": 3, "children": [] }] },
+      { "name": 88, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "asset_view",
+    "children": [{ "name": 0, "children": [{ "name": 21, "children": [] }] }]
+  },
+  {
+    "name": "battery_charger",
+    "children": [{ "name": 0, "children": [{ "name": 0, "children": [] }] }]
+  },
+  {
+    "name": "Battery_Charger",
+    "children": [{ "name": 429, "children": [{ "name": 3, "children": [] }] }]
+  },
+  {
+    "name": "busduct",
+    "children": [
+      {
+        "name": 0,
+        "children": [
+          { "name": 0, "children": ["pdrealtime"] },
+          { "name": 17, "children": ["pdrealtime"] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Busduct",
+    "children": [
+      { "name": 113, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 114, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 0, "children": [{ "name": 17, "children": ["pdRealtime"] }] }
+    ]
+  },
+  {
+    "name": "cable",
+    "children": [
+      {
+        "name": 164,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 167,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 161,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 378,
+        "children": [
+          { "name": 3, "children": ["pd", "pdrealtime"] },
+          { "name": 0, "children": ["pd", "pdrealtime"] }
+        ]
+      },
+      {
+        "name": 379,
+        "children": [
+          { "name": 3, "children": ["pd", "pdrealtime"] },
+          { "name": 0, "children": ["pd", "pdrealtime"] }
+        ]
+      },
+      {
+        "name": 380,
+        "children": [
+          { "name": 3, "children": ["pd", "pdrealtime"] },
+          { "name": 0, "children": ["pd", "pdrealtime"] }
+        ]
+      },
+      {
+        "name": 381,
+        "children": [
+          { "name": 3, "children": ["pd", "pdrealtime"] },
+          { "name": 0, "children": ["pd", "pdrealtime"] }
+        ]
+      },
+      {
+        "name": 382,
+        "children": [
+          { "name": 3, "children": ["pd", "pdrealtime"] },
+          { "name": 0, "children": ["pd", "pdrealtime"] }
+        ]
+      },
+      {
+        "name": 385,
+        "children": [
+          { "name": 3, "children": ["pd", "pdrealtime"] },
+          { "name": 0, "children": ["pd", "pdrealtime"] }
+        ]
+      },
+      {
+        "name": 386,
+        "children": [
+          { "name": 3, "children": ["pd", "pdrealtime"] },
+          { "name": 0, "children": ["pd", "pdrealtime"] }
+        ]
+      },
+      {
+        "name": 177,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 173,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 176,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 163,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 166,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 168,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 169,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 170,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 171,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 0,
+        "children": [
+          { "name": 0, "children": ["pd", "pdrealtime"] },
+          { "name": 19, "children": ["pd", "pdrealtime"] },
+          { "name": 17, "children": ["pd", "pdrealtime"] }
+        ]
+      },
+      {
+        "name": 160,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 172,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 162,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 178,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 180,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 181,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 182,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 183,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 184,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 185,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 186,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 187,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 355,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 179,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      },
+      {
+        "name": 354,
+        "children": [{ "name": 0, "children": ["pd", "pdrealtime"] }]
+      }
+    ]
+  },
+  {
+    "name": "Cable",
+    "children": [
+      { "name": 177, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 179, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 183, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 185, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 184, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 162, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 169, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 172, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 187, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 176, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 178, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 173, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 163, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 165, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 168, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 160, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 166, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 170, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 186, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 167, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 174, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 175, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 180, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 164, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 181, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 161, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 182, "children": [{ "name": 3, "children": ["pdRealtime"] }] },
+      { "name": 0, "children": [{ "name": 17, "children": ["pdRealtime"] }] },
+      { "name": 171, "children": [{ "name": 3, "children": ["pdRealtime"] }] }
+    ]
+  },
+  {
+    "name": "Circuit_Breaker",
+    "children": [
+      { "name": 234, "children": [{ "name": 3, "children": [] }] },
+      { "name": 232, "children": [{ "name": 3, "children": [] }] },
+      { "name": 236, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "dfr_analysis",
+    "children": [
+      { "name": 22, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 474, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 24, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 0, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 17, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 18, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 20, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 25, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 26, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 295, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 359, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 360, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 361, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 362, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 363, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 364, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 365, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 366, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 367, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 368, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 369, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 370, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 371, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 372, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 373, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 374, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 375, "children": [{ "name": 8, "children": ["ras"] }] },
+      { "name": 551, "children": [{ "name": 8, "children": ["ras"] }] }
+    ]
+  },
+  {
+    "name": "Disconnector",
+    "children": [
+      { "name": 241, "children": [{ "name": 3, "children": [] }] },
+      { "name": 237, "children": [{ "name": 3, "children": [] }] },
+      { "name": 233, "children": [{ "name": 3, "children": [] }] },
+      { "name": 242, "children": [{ "name": 3, "children": [] }] },
+      { "name": 235, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "generator",
+    "children": [
+      {
+        "name": 102,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 0,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime"] },
+          { "name": 11, "children": ["pdrealtime", "pdRealtime"] },
+          { "name": 17, "children": ["pdrealtime", "pdRealtime"] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Generator",
+    "children": [
+      { "name": 85, "children": [{ "name": 3, "children": [] }] },
+      { "name": 67, "children": [{ "name": 3, "children": [] }] },
+      { "name": 102, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "homepage",
+    "children": [{ "name": 0, "children": [{ "name": 22, "children": [] }] }]
+  },
+  {
+    "name": "hv_ais_bay",
+    "children": [
+      {
+        "name": 57,
+        "children": [
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          },
+          {
+            "name": 13,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      },
+      {
+        "name": 276,
+        "children": [
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      },
+      {
+        "name": 270,
+        "children": [
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      },
+      {
+        "name": 275,
+        "children": [
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      },
+      {
+        "name": 269,
+        "children": [
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      },
+      {
+        "name": 72,
+        "children": [
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      },
+      {
+        "name": 73,
+        "children": [
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          },
+          {
+            "name": 13,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      },
+      {
+        "name": 0,
+        "children": [
+          {
+            "name": 13,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          },
+          {
+            "name": 17,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          },
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      },
+      {
+        "name": 516,
+        "children": [
+          {
+            "name": 13,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          },
+          {
+            "name": 0,
+            "children": ["irthermography", "pdrealtime", "pdRealtime"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HV_AIS_BAY",
+    "children": [
+      { "name": 73, "children": [{ "name": 3, "children": [] }] },
+      { "name": 72, "children": [{ "name": 3, "children": [] }] },
+      { "name": 57, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "hv_gis_bay",
+    "children": [
+      {
+        "name": 96,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] },
+          { "name": 1, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 97,
+        "children": [
+          { "name": 1, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 95,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] },
+          { "name": 1, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 0,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] },
+          { "name": 1, "children": ["pdrealtime", "pdRealtime", "sf6"] },
+          { "name": 17, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 266,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 271,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 268,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 267,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 262,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      },
+      {
+        "name": 263,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime", "sf6"] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HV_GIS_BAY",
+    "children": [
+      { "name": 94, "children": [{ "name": 3, "children": [] }] },
+      { "name": 95, "children": [{ "name": 3, "children": [] }] },
+      { "name": 96, "children": [{ "name": 3, "children": [] }] },
+      { "name": 93, "children": [{ "name": 3, "children": [] }] },
+      { "name": 97, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "list_view",
+    "children": [{ "name": 0, "children": [{ "name": 20, "children": [] }] }]
+  },
+  {
+    "name": "management_dashboard",
+    "children": [
+      {
+        "name": 26,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 371,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 370,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 369,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 368,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 367,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 366,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 25,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 0,
+        "children": [
+          { "name": 7, "children": ["asset-monitoring", "summary"] },
+          { "name": 9, "children": ["asset-monitoring", "summary"] },
+          { "name": 10, "children": ["asset-monitoring", "summary"] }
+        ]
+      },
+      {
+        "name": 17,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 295,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 20,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 18,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 373,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 24,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 359,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 361,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 362,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 363,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 360,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 364,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 375,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 374,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 372,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 365,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      },
+      {
+        "name": 474,
+        "children": [{ "name": 7, "children": ["asset-monitoring", "summary"] }]
+      }
+    ]
+  },
+  {
+    "name": "mapView",
+    "children": [{ "name": 0, "children": [{ "name": 23, "children": [] }] }]
+  },
+  {
+    "name": "motor",
+    "children": [
+      {
+        "name": 437,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 0,
+        "children": [
+          { "name": 17, "children": ["pdrealtime", "pdRealtime"] },
+          { "name": 0, "children": ["pdrealtime", "pdRealtime"] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Motor",
+    "children": [
+      { "name": 68, "children": [{ "name": 3, "children": [] }] },
+      { "name": 69, "children": [{ "name": 3, "children": [] }] },
+      { "name": 87, "children": [{ "name": 3, "children": [] }] },
+      { "name": 86, "children": [{ "name": 3, "children": [] }] },
+      { "name": 103, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "mv_swgr_ais_bay",
+    "children": [
+      {
+        "name": 0,
+        "children": [
+          { "name": 0, "children": ["pdrealtime", "pdRealtime"] },
+          { "name": 17, "children": ["pdrealtime", "pdRealtime"] }
+        ]
+      },
+      {
+        "name": 61,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 63,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 62,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      }
+    ]
+  },
+  {
+    "name": "MV_SWGR_AIS_BAY",
+    "children": [
+      { "name": 59, "children": [{ "name": 3, "children": [] }] },
+      { "name": 60, "children": [{ "name": 3, "children": [] }] },
+      { "name": 58, "children": [{ "name": 3, "children": [] }] },
+      { "name": 61, "children": [{ "name": 3, "children": [] }] },
+      { "name": 62, "children": [{ "name": 3, "children": [] }] },
+      { "name": 63, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "mv_swgr_gis_bay",
+    "children": [
+      {
+        "name": 200,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 201,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 202,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 203,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 204,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 256,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 257,
+        "children": [{ "name": 0, "children": ["pdrealtime", "pdRealtime"] }]
+      },
+      {
+        "name": 0,
+        "children": [
+          { "name": 17, "children": ["pdrealtime", "pdRealtime"] },
+          { "name": 0, "children": ["pdrealtime", "pdRealtime"] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MV_SWGR_GIS_BAY",
+    "children": [
+      { "name": 74, "children": [{ "name": 3, "children": [] }] },
+      { "name": 202, "children": [{ "name": 3, "children": [] }] },
+      { "name": 203, "children": [{ "name": 3, "children": [] }] },
+      { "name": 75, "children": [{ "name": 3, "children": [] }] },
+      { "name": 204, "children": [{ "name": 3, "children": [] }] },
+      { "name": 201, "children": [{ "name": 3, "children": [] }] },
+      { "name": 200, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "my_dashboard",
+    "children": [
+      { "name": 0, "children": [{ "name": 14, "children": ["mydashboard"] }] }
+    ]
+  },
+  {
+    "name": "reports",
+    "children": [
+      {
+        "name": 0,
+        "children": [
+          {
+            "name": 16,
+            "children": [
+              "eepm_acups",
+              "eepm_battery_charger",
+              "eepm_cable",
+              "eepm_generator",
+              "eepm_hv_ais_bay",
+              "eepm_motor",
+              "eepm_transformer",
+              "eepm_vfd"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "transformer",
+    "children": [
+      {
+        "name": 6,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 0,
+        "children": [
+          {
+            "name": 4,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 6,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 5,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 18,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 17,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 5,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 145,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 148,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 135,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 137,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 134,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 136,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 143,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 144,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 130,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 133,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 4,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 3,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 7,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 131,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 138,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 139,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 142,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 140,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 141,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          },
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 149,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 146,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 297,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 309,
+        "children": [
+          {
+            "name": 15,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 553,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 554,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 555,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 132,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 147,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      },
+      {
+        "name": 135555,
+        "children": [
+          {
+            "name": 0,
+            "children": [
+              "bushing",
+              "maintank",
+              "oltc",
+              "pdrealtime",
+              "pdRealtime"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Transformer",
+    "children": [
+      { "name": 309, "children": [{ "name": 3, "children": [] }] },
+      { "name": 5, "children": [{ "name": 3, "children": [] }] },
+      { "name": 3, "children": [{ "name": 3, "children": [] }] },
+      { "name": 4, "children": [{ "name": 3, "children": [] }] },
+      { "name": 6, "children": [{ "name": 3, "children": [] }] },
+      { "name": 7, "children": [{ "name": 3, "children": [] }] }
+    ]
+  },
+  {
+    "name": "vfd_panel",
+    "children": [
+      {
+        "name": 0,
+        "children": [
+          { "name": 0, "children": [] },
+          { "name": 12, "children": [] }
+        ]
+      },
+      {
+        "name": 488,
+        "children": [
+          { "name": 12, "children": [] },
+          { "name": 0, "children": [] }
+        ]
+      }
+    ]
+  }
+]
