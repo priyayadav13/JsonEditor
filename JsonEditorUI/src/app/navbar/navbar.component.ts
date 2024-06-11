@@ -34,7 +34,6 @@ export class NavbarComponent implements OnInit {
       this.filteredData = this.message.split(' ')
         .filter(word => word.toLowerCase().includes(searchText.toLowerCase()))
         .join(' ');
-      console.log(this.filteredData);
     }
     this.searchTextChange.emit(this.filteredData);
   }

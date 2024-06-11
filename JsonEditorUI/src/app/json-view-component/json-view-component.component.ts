@@ -17,7 +17,7 @@ export class JsonViewComponentComponent implements AfterViewInit, OnInit {
   message: any = '';
   id: any = '';
   snackBar: any;
-  
+
   jsonText: string = '';
   jsonData: any = {};
 
@@ -146,12 +146,27 @@ export class JsonViewComponentComponent implements AfterViewInit, OnInit {
   }
 
   SaveClick() {
-    this.modifyJson.updateJson(this.id, JSON.stringify(this.message)).subscribe(
+    this.modifyJson.updateJson(this.id, this.jsonData).subscribe(
       response => {
-        console.log('Validate Data Response:', response);
+        if (response.status == '200') {
+          this._snackBar.open(response.message, 'More details', {
+            duration: 5000,
+          }).onAction().subscribe(() => {
+            this.dialog.open(ResponseDialogComponent, {
+              data: response.data
+            });
+          })
+        }
       },
       error => {
-        console.error('Validate Data Error:', error);
+        this._snackBar.open('JSON Updation failed. Please try again.', 'More details', {
+          duration: 5000,
+        }).onAction().subscribe(() => {
+          this.dialog.open(ResponseDialogComponent, {
+            data: error
+          });
+        });
+
       }
     );
   }

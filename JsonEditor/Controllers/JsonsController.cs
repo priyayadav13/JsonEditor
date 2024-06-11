@@ -153,7 +153,7 @@ namespace JsonEditor.Controllers
                         {
                             status = 200,
                             message = "Query generated successfully.",
-                            data = $"UPDATE jsons SET json = {stringModel} WHERE id = {id}",
+                            data = $"UPDATE jsons SET json = {json2} WHERE id = {id}",
                         });
                     }
                 }
@@ -280,8 +280,8 @@ namespace JsonEditor.Controllers
                         {
                             return new ObjectResult(new
                             {
-                                status = 200,
-                                message = "Update json before saving.",
+                                status = 400,
+                                error = "Update json before saving.",
                                 data = new { },
                             }); 
                         }
