@@ -69,13 +69,14 @@ export class TextAreaComponent implements OnInit {
     this.jsonData.input = this.jsonText;
     this.modifyJson.generateQuery(this.id, this.jsonData).subscribe(
       response => {
-        const jsonData = JSON.stringify(response.data, null, 2);
+        const formattedJsonData = JSON.stringify(response.data, null, 2).replace(/'/g, "''");
+        const sqlStatement = `UPDATE all_jsons SET json = '${formattedJsonData}' WHERE id = ${this.id}`;
         if (response.status == '200') {
           this._snackBar.open(response.message, 'More details', {
             duration: 5000,
           }).onAction().subscribe(() => {
             this.dialog.open(ResponseDialogComponent, {
-              data: {json:jsonData}
+              data: sqlStatement
             });
           });
         }

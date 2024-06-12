@@ -112,7 +112,7 @@ namespace JsonEditor.Controllers
             try
             {
                 if (stringModel == null)
-                {       
+                {
                     return new ObjectResult(new
                     {
                         status = 400,
@@ -153,7 +153,7 @@ namespace JsonEditor.Controllers
                         {
                             status = 200,
                             message = "Query generated successfully.",
-                            data = $"UPDATE jsons SET json = {json2} WHERE id = {id}",
+                            data = JsonSerializer.Deserialize<JsonDocument>(stringModel.input),
                         });
                     }
                 }
@@ -165,7 +165,7 @@ namespace JsonEditor.Controllers
                         error = "Updated JSON string is invalid",
                         data = new { },
                     });
-                }               
+                }
             }
             catch (Exception ex)
             {

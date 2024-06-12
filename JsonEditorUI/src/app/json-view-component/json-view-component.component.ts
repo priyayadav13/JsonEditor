@@ -122,13 +122,16 @@ export class JsonViewComponentComponent implements AfterViewInit, OnInit {
 
   QueryClick() {
     this.modifyJson.generateQuery(this.id, this.jsonData).subscribe(
+
       response => {
         if (response.status == '200') {
+          const formattedJsonData = JSON.stringify(response.data, null, 2).replace(/'/g, "''");
+          const sqlStatement = `UPDATE all_jsons SET json = '${formattedJsonData}' WHERE id = ${this.id}`;
           this._snackBar.open(response.message, 'More details', {
             duration: 5000,
           }).onAction().subscribe(() => {
             this.dialog.open(ResponseDialogComponent, {
-              data: response.data
+              data: sqlStatement
             });
           })
         }
