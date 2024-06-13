@@ -25,18 +25,21 @@ namespace JsonEditor.Controllers
                 .Select(asset_type_name => new
                 {
                     name = asset_type_name.Key,
+                    attribute = "Asset Type",
                     children = asset_type_name
                         .Where(j => j.asset_id != null)  // Filter out records with null asset_id
                         .GroupBy(j => j.asset_id)
                         .Select(asset_id => new
                         {
                             name = asset_id.Key,
+                            attribute = "Asset ID",
                             children = asset_id
                                 .Where(j => j.json_type != null)  // Filter out records with null json_type
                                 .GroupBy(j => j.json_type)
                                 .Select(json_type => new
                                 {
                                     name = json_type.Key,
+                                    attribute = "JSON Type",
                                     children = json_type
                                         .Select(j => new
                                         {
@@ -44,7 +47,8 @@ namespace JsonEditor.Controllers
                                             {
                                                 subsystem = j.subsystem ?? string.Empty,
                                                 id = j.id
-                                            }
+                                            },
+                                            attribute = "Subsystem",
                                         })
                                         .ToList()
                                 })

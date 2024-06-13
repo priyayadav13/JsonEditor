@@ -1,15 +1,13 @@
 <div fxLayout="column" fxLayoutAlign="start stretch" class="treeTop">
   <mat-tree [dataSource]="dataSource" [treeControl]="treeControl" fxFlex>
 
+    <!-- Tree node template for leaf nodes -->
     <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding (click)="nodeClicked(node)"
       [class.clickable]="isObject(node.name) && node.name.id">
-
       <button mat-icon-button disabled></button>
       <div class="li">
-        <div class="node-content leaf" #node>
-
+        <div class="node-content leaf" [matTooltip]="node.level === 0 ? 'Asset Type' : node.attribute" matTooltipPosition="above">
           <ng-container *ngIf="isObject(node.name); else simpleName">
-  
             <ng-container *ngIf="node.name.subsystem; else noSubsystem">
               {{ node.name.subsystem }}
             </ng-container>
@@ -24,28 +22,29 @@
       </div>
     </mat-tree-node>
 
-    <!-- This is the tree node template for expandable nodes -->
+    <!-- Tree node template for expandable nodes -->
     <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding>
-
-      <div (click)="treeControl.toggle(node)" class="toggle-circle" [class.expanded]="treeControl.isExpanded(node)"
-        [class.collapsed]="!treeControl.isExpanded(node)">
-        <mat-icon>
-          {{ treeControl.isExpanded(node) ? 'remove' : 'add' }}
-        </mat-icon>
-      </div>
-      <div class="node-content leaf">
-        <ng-container *ngIf="isObject(node.name); else simpleName">
-          <ng-container *ngIf="node.name.subsystem; else noSubsystem">
-            {{ node.name.subsystem }}
+      <div class="toggleable" (click)="treeControl.toggle(node)">
+        <div class="toggle-circle" [class.expanded]="treeControl.isExpanded(node)" [class.collapsed]="!treeControl.isExpanded(node)">
+          <mat-icon>
+            {{ treeControl.isExpanded(node) ? 'remove' : 'add' }}
+          </mat-icon>
+        </div>
+        <div class="node-content leaf" [matTooltip]="node.level === 0 ? 'Asset Type' : node.attribute" matTooltipPosition="above">
+          <ng-container *ngIf="isObject(node.name); else simpleName">
+            <ng-container *ngIf="node.name.subsystem; else noSubsystem">
+              {{ node.name.subsystem }}
+            </ng-container>
+            <ng-template #noSubsystem>
+              {{ node.name.id ? 'Subsystem is not defined' : '' }}
+            </ng-template>
           </ng-container>
-          <ng-template #noSubsystem>
-            {{ node.name.id ? 'Subsystem is not defined' : '' }}
+          <ng-template #simpleName>
+            {{ node.name }}
           </ng-template>
-        </ng-container>
-        <ng-template #simpleName>
-          {{ node.name }}
-        </ng-template>
+        </div>
       </div>
     </mat-tree-node>
+
   </mat-tree>
 </div>

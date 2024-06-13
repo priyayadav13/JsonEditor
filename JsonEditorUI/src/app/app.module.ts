@@ -27,6 +27,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { TextAreaComponent } from './text-area/text-area.component';
 import { FormsModule } from '@angular/forms';
 import {FilterPipe} from '../assets/filter.pipe'
+import { MatTooltipModule } from '@angular/material/tooltip';
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,6 +62,7 @@ import {FilterPipe} from '../assets/filter.pipe'
     MatDialogModule,
     MatSnackBarModule,
     FormsModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
