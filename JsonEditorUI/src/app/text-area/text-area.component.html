@@ -1,8 +1,9 @@
 <div class="editor-container">
-
   <div class="editor">
     <div class="textarea-wrapper">
-      <textarea rows="10" cols="40" id="codeEditor" [(ngModel)]="jsonText"></textarea>
+      <!-- <textarea rows="10" cols="40" id="codeEditor" [(ngModel)]="jsonText" placeholder="Will get displayed once you select subsystem..."></textarea> -->
+      <div contenteditable="true" #contentDiv class="codeEditor" [innerHtml]="jsonText | highlighter:searchText :'partial'"
+        placeholder="Will get displayed once you select subsystem..."></div>
     </div>
   </div>
 </div>

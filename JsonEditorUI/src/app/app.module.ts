@@ -17,8 +17,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle'
 import { MatDialogModule } from '@angular/material/dialog'
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatDividerModule } from '@angular/material/divider';
-import { MatTree, MatTreeModule } from '@angular/material/tree';
-import { ListComponent } from './tree-view/tree-view.component'
+import { MatTreeModule } from '@angular/material/tree';
+import { TreeViewComponent } from './tree-view/tree-view.component'
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -28,6 +28,7 @@ import { TextAreaComponent } from './text-area/text-area.component';
 import { FormsModule } from '@angular/forms';
 import {FilterPipe} from '../assets/filter.pipe'
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { HighlighterPipe } from './highlighter.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,10 +37,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     NavbarComponent,
     HomeComponent,
     JsonViewComponentComponent,
-    ListComponent,
+    TreeViewComponent,
     ResponseDialogComponent,
     TextAreaComponent,
-    FilterPipe
+    FilterPipe,
+    HighlighterPipe
   ],
   imports: [
     FlexLayoutModule,

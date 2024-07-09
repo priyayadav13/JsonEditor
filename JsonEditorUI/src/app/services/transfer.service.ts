@@ -5,7 +5,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class TransferService {
-  private message = new BehaviorSubject<any>("Will get displayed once you select subsystem..."); 
+  private message = new BehaviorSubject<any>(null); 
   getMessage = this.message.asObservable()
   private id = new BehaviorSubject<any>(null)
   getId = this.id.asObservable()

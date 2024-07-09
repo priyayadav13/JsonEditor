@@ -1,5 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { TransferService } from '../services/transfer.service';
+import { SharedService } from '../services/shared.service';
 
 @Component({
   selector: 'app-navbar',
@@ -14,27 +15,15 @@ export class NavbarComponent implements OnInit {
 
   @Output() searchTextChange = new EventEmitter<string>();
 
-  constructor(private transferData: TransferService) { }
+  constructor(private sharedService: SharedService) { }
 
-  ngOnInit(): void {
-    this.transferData.getMessage.subscribe((msg: string) => {
-      this.message = msg;
-      this.filteredData = msg;
-    });
-  }
+  ngOnInit(): void { }
 
   onInput() {
     this.isButtonEnabled = this.searchText.trim().length > 0;
   }
 
   onSearch(searchText: string) {
-    if (!searchText) {
-      this.filteredData = this.message;
-    } else {
-      this.filteredData = this.message.split(' ')
-        .filter(word => word.toLowerCase().includes(searchText.toLowerCase()))
-        .join(' ');
-    }
-    this.searchTextChange.emit(this.filteredData);
+    this.sharedService.updateTextAreaContent(searchText);
   }
 }

@@ -1,16 +1,16 @@
 .mat-toolbar {
-  height: 42px;
-  background-color: #0039a6;
+  height: 50px;
+  background-color: #404040;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Comic Sans";
-  width: 100vw;
+  width: 100%;
 }
 
 .img-fluid {
-  max-width: 18%;
+  max-width: 11%;
 }
 
 .topNav {
